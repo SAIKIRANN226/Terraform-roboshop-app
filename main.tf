@@ -1,3 +1,5 @@
+# This module is customised only for roboshop project, cannot be used for remaining projects
+
 resource "aws_lb_target_group" "component" {
   name     = "${local.name}-${var.tags.Component}"
   port     = 8080
